@@ -992,7 +992,7 @@ void peripheral_init()
   Serial.println("Peripheral initialization complete");
   digitalWrite(Debug_LED2, 1); // Indicate initialization complete
 
-  // HANDBOOK_MESSAGE_TIMER.begin(send_handbook_variables, 100000); // 100ms
+   HANDBOOK_MESSAGE_TIMER.begin(send_handbook_variables, 100000); // 100ms
 }
 
 void led_heartbit()
