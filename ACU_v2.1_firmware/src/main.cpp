@@ -488,7 +488,6 @@ void setup()
 
 void loop()
 {
-
   UpdateState();
 
   /* Handle actions specific to the current state */
@@ -533,7 +532,6 @@ void print_state_transition(ACU_STATE_t from, ACU_STATE_t to)
  */
 void UpdateState(void)
 {
-
   // State transitions
   switch (current_state)
   {
