@@ -56,10 +56,6 @@
 #define Debug_LED5 30
 #define Debug_LED6 31
 
-
-
-
-
 #define TANK_PRESSURE_THRESHOLD 3.5
 
 #define TANKS_INDEX_SIZE 6
@@ -67,5 +63,4 @@
 #define ASMS 38
 #define IGN_PIN 4
    
-
 #define CAN_TIMEOUT_TIME 1000 // Timeout for CAN messages in milliseconds
